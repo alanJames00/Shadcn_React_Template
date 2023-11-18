@@ -10,17 +10,13 @@ export default function HomePage() {
           built with Radix UI and Tailwind CSS.
         </h1>
         <p className="max-w-[700px] text-lg text-muted-foreground">
-          Accessible and customizable components that you can copy and paste
-          into your apps. Free. Open Source. And Next.js 13 Ready.
+          Preconfigured Setup for ShadCN with ReactJS
         </p>
+        <p className=" text-2xl">Preconf by alanjames00</p>
+        <p>Checkout my GitHub</p>
       </div>
       <div className="flex gap-4">
-        <a
-          href={siteConfig.links.docs}
-          className={buttonVariants()}
-        >
-          Documentation
-        </a>
+      
         <a
           href={siteConfig.links.github}
           className={buttonVariants({ variant: "outline" })}
